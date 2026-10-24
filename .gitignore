@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Large recordings (keep only tiny samples under decoder/samples/)
+*.iq
+*.cu8
+*.cs16
+*.raw
+*.bin
+recordings/
+!decoder/samples/*.wav
+
+# Secrets and real configs (commit *.example files instead)
+.env
+*.key
+*.pem
+secrets/
+setup/config/*.local
+setup/config/satnogs.env
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
