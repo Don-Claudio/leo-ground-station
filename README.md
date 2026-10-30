@@ -15,7 +15,7 @@ The plan is to start with the parts that need no hardware (antenna design, a Pyt
 | Part | Status |
 |------|--------|
 | Foundations reading | In progress |
-| Link budget | Not started |
+| Link budget | In progress |
 | APT decoder (Python, from recordings) | Not started |
 | Antenna model | Not started |
 | Antenna build | Not started |
